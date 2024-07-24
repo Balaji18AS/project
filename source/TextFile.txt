@@ -1,0 +1,22 @@
+deposit
+=====
+
+transaction number
+accountno
+paymode
+depositamount
+chequeno
+chequedate
+bankdrawn
+realizationdate
+
+withdraw
+=======
+tno,accountno,paymode,withdrawdate,amount,chequeno,chequedate
+
+amount transfer
+==========
+accountno
+accountno to transfer
+amount to transfer
+transferdate

@@ -1,0 +1,163 @@
+/* CSS Document */
+
+body{margin:0 0 0 0; background:#3f4141;}
+
+#main_wrapper{
+	width:1000px;
+	/*height:900px;*/
+	height :auto; 
+	margin:0 auto;
+			}
+	
+
+#header{
+	height:90px;
+	float:left;
+	}
+		
+		
+#logo{
+width:1000px;
+	height:176px;
+	float:left;
+	margin:0px;
+	background:url(/bot_control/images/logo.jpg);
+	
+	}		
+	
+	
+#content{
+	width:1000px;
+	/*height:634px;*/
+	height :auto; 
+	background:#FFFFFF;
+	margin-top:5px;
+	clear:both;
+		}	
+		
+
+#side_table{
+	width:300px;
+	/*height:400px;*/
+	height :auto; 
+	float:left;
+	margin-left:10px;
+	border:1px solid #CCCCCC;
+	margin-top:10px;
+	padding :0px 0px 0px 0px;
+	}
+	
+	
+	
+#right_table{
+	width:650px;
+	/*height: 282px;*/
+	height :100%;
+	float:left;
+	margin-left:10px;
+	border:1px solid #CCCCCC;
+	margin-top:10px;
+	}
+	
+
+#rig_in{
+	width:647px;
+	height:38px;
+	float:left;
+	margin-left:25px;
+	background:url(../images/right1.jpg);
+	margin-top:6px;
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size:16px; font-weight:600; color:#FF0000; text-align:center; text-decoration:none;
+	}
+	
+	
+#right_con{
+	width:100% ;
+	height:100% ; 
+	float:left;
+	margin-left:25px;
+	/*background:#999999;*/
+	}
+	
+	
+		
+
+
+
+#main{
+	width:250px;
+	height:38px;
+	float:left;
+	background:url(/bot_control/images/main.jpg);
+	margin-left:25px;
+	margin-top:5px;
+		}
+
+
+#menu{
+	width:250px;
+	height: auto;
+	float:left;
+	margin-left:25px;
+	margin-top:25px;
+		}
+	
+
+#menu ul{
+	width:250px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+	display:block;
+	list-style:none;
+	}
+	
+	
+#menu li a{ 
+	width:250px;
+	height:auto;
+	float:left;
+	line-height:38px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	color:#999999;
+	text-align:center;
+	text-decoration:none;
+	background:url(../images/menu_icon.jpg);
+		}
+	
+
+#menu li a:hover{
+	color:#00CCFF;
+	padding-left:15px;
+	background:url(../images/icon.jpg);
+	}	
+	 
+	
+#footer{
+	width:1000px;
+	height:37px;
+	margin-top:5px;
+	background:#0066FF;
+	padding-top:15px;
+	
+	}
+	
+
+
+
+#footer1{
+	width:1000px;
+	height:37px;
+	margin-top:5px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:600;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	background:#999999;
+	padding-top:15px;
+	}
+			

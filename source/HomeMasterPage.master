@@ -1,0 +1,104 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMasterPage.master.cs" Inherits="HomeMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+
+    <title>   Bot Control And Monitoring CAPTCHA System</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body style ="background-color :black ;">
+   <div id="main_wrapper">
+        <div id="header">
+        <img src="images/header1.jpg" />
+            </div>
+        <div id="logo">
+            <img src="images/logo1.jpg" /></div>
+        <div id="content" style ="background-color :White ;">
+
+        <table >
+        <tr>
+        <td>
+        <div id="side_table">
+                <div id="main">
+                    <img src="images/main.jpg" /></div>
+                <div id="menu">
+                    <ul>
+                          <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="AdminLogin.aspx">Admin Login</a></li>
+                        <li><a href="ClientLogin.aspx">User Login</a></li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </td>
+
+        <td rowspan ="10">
+        
+        <div id="right_table" style ="background-color :White ; width :90%;">
+                <div id="rig_in">
+                </div>
+                <div id="right_con" style ="background-color :White ; width :90%;" >
+                    <form runat="server" id="kk">
+                    <table style ="width :100%; height :100%;" >
+                    <tr>
+                    <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+                    </td>
+                    </tr>
+
+                     
+
+                   </table>
+                  </form>
+                </div>
+            </div>
+        </td>
+
+        </tr>
+
+          <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+         <tr>
+        <td><br /></td>
+        </tr>
+        
+        </table>
+
+            
+            
+        </div>
+        <div id="footer" style ="color :White ;">
+            <marquee direction="left">
+                  Bot Control And Monitoring CAPTCHA System</marquee>
+        </div>
+        <div id="footer1">
+            </div>
+    </div>
+</body>
+</html>
